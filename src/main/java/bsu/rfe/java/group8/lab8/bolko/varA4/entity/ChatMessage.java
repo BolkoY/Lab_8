@@ -44,4 +44,5 @@ public class ChatMessage {
     public long getSek() {
         return sek;
     }
+}
 

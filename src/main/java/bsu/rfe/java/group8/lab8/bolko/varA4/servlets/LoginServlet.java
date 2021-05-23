@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import bsu.rfe.java.group8.lab8.bolko.varA4.entity.ChatUser;
 
 public class LoginServlet extends ChatServlet {
-
     private static final long serialVersionUID = 1L;
-
     // Длительность сессии, в секундах
     private int sessionTimeout = 10*60;
 
